@@ -1,3 +1,82 @@
-h1 {
-    color: red;
+* {
+    padding: 0;
+    margin: 0;
 }
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 80%;
+}
+
+header {
+    background-color: #1F2937;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.hero {
+    display: flex;
+    padding: 16px 8px;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.hero-left {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.hero-links-container {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+}
+
+.hero-right {
+    background-color: hsla(220, 13%, 91%, 0.593);
+    width: 50%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-shrink: 0;
+}
+
